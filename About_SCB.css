@@ -1,0 +1,78 @@
+        @media only screen and (max-width: 455px) {
+            .box{
+            flex-direction: column;
+            }
+        }
+
+        @media screen and (orientation:landscape) {
+            
+        }
+
+        body{
+            background-color: rgba(198, 206, 212, 0.999);
+        }
+
+        h1{
+            background-color: rgb(5, 5, 62);
+            color: rgb(148, 184, 216);
+            margin: 0%;
+            padding: 0%;
+        }
+        h2{
+            /* text-transform: uppercase; */
+            text-decoration: underline;
+            text-decoration-style: double;
+            text-decoration-color: rgb(94, 56, 6);
+            text-decoration-thickness: 2px;
+            text-indent: 4px;
+        }
+
+        .dectr1{
+            margin: 1%;
+            padding: 0%;
+            background-color: rgb(244, 243, 242);
+        }
+
+        .box {
+            position: relative;
+            top: 10px;
+            margin: 0%;
+            padding: 10px;
+            border: 3px solid rgb(51, 51, 67);
+            background-color: antiquewhite;
+            color: rgb(66, 114, 181);
+            box-sizing: border-box;
+
+        }
+
+        dl {
+            width: 60%;
+            height: 30%;
+            border: 3px solid rgb(105, 105, 153);
+            color: rgb(2, 20, 43);
+            /* box-sizing: border-box; */
+            /* text-align: center; */
+
+        }
+
+        dt{
+            /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+            font-style: italic;
+            font-weight: bolder;
+            /* line-height:0; */
+            /* letter-spacing: 90px; */
+            text-align: center;
+            margin: 0%;
+            padding: 24px;
+            background-color: antiquewhite;
+        }
+
+        dd>ul>li{
+            /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+            /* font-style: italic; */
+            /* font-weight: bolder; */
+            /* line-height:0; */
+            /* letter-spacing: 90px; */
+            text-align: justify;
+        }
+        

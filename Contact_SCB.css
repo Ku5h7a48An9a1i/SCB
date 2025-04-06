@@ -1,0 +1,99 @@
+:root {
+    --defbackground: rgb(22, 59, 96);
+    --defcolor: rgb(250, 250, 245);
+    --seccolor: rgb(68, 36, 4);
+    --defpad: 12px;
+    --defmargin: 2%;
+    --defopa: 0.7;
+    --tbackground: rgba(104, 121, 154, 0.845);
+}
+
+.logo1 {
+    width: 100px;
+    height: 15vh;
+    border-radius: 50%;
+    min-height: auto;
+    /* margin-left: 10px; */
+    margin-right: 100%;
+}
+
+header {
+    /* background-image: image-set("https://michaeldelahoyde.org/wp-content/uploads/2018/06/vezelay.jpg"); */
+    background-color: var(--defbackground);
+    color: var(--defcolor);
+    position:relative;
+    top: 0px;
+}
+
+.CONTAIN{
+    color: rgb(9, 17, 69);
+    background-image:image-set("https://www.shutterstock.com/image-vector/india-map-on-globe-vector-260nw-2206499661.jpg") ;
+}
+
+h3{
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(45, 35, 19);
+    text-decoration-thickness: 2px;
+    color: rgba(10, 59, 89, 0.907);
+}
+
+#cont{
+    text-align: justify;
+    padding-right: 97%;
+    background-color: var(--tbackground);
+}
+
+.Mtable{
+    width: 90%;
+    margin-left: 5%;
+    height: 100vh;
+}
+
+.HeadingTable{
+    background-color: rgba(34, 66, 107, 0.926);
+    color: bisque;
+    padding-right: 900%;
+    /* width: 100vw; */
+    margin-right: 110%;
+    
+}
+
+.MT2para{
+    background-color: var(--tbackground) ;
+    color: black;
+    text-align: justify;
+    margin-top: 3%;
+    /* border: 2px solid black; */
+}
+
+.TContainer{
+    background-color: rgb(209, 217, 220);
+    text-align: center;
+}
+
+.Flink{
+    text-align: center;
+    margin-top: 10px;
+    background-color: var(--seccolor);
+}
+
+.Flink2{
+    text-align: center;
+    background-color: antiquewhite;
+    color: rgb(57, 47, 10);
+    margin-top: 10px;
+
+}
+
+a:visited {
+    color: rgb(33, 92, 135);
+}
+
+a:link {
+    color: rgb(69, 59, 25);
+}
+
+a:active {
+    background-color: rgb(98, 111, 167);
+}

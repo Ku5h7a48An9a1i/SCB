@@ -1,0 +1,152 @@
+:root {
+    --defbackground: rgb(190, 177, 158);
+    --color: rgb(220, 223, 225);
+}
+
+@media only screen and (max-width: 455px) {
+    body {
+        background-color: rgb(85, 139, 188);
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .box3 {
+        color: black;
+    }
+}
+
+
+* {
+    margin: 0%;
+    padding: 0% width:;
+}
+
+.logo1{
+    width: 110px;
+    height: 21vh;
+    border-radius: 100%;
+    /* display: flex; */
+    /* justify-content: left; */
+}
+
+
+header {
+    background-color: var(--defbackground);
+    color: var(--color);
+    background-image: image-set("https://michaeldelahoyde.org/wp-content/uploads/2018/06/vezelay.jpg");
+    padding: 60px;
+    margin-bottom: 1px;
+    padding-bottom: 0%;
+
+}
+
+.tableTWO{
+    position: relative;
+    bottom: 30px;
+    left: 20%;
+    transform: translate(-0%, -1%);
+}
+
+
+
+h3 {
+    background-image: image-set("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-NBZlRTPe_zPvuWybRRZtcY3qWadrYXLWerkQPkXvMOBkXu-kdTyfVEpVjCc-WVB50w&usqp=CAU");
+    text-decoration: double;
+    text-decoration-color: rgb(22, 55, 82);
+    text-decoration-line: underline;
+    color: rgba(112, 60, 22, 0.963);
+}
+
+
+h4 {
+    text-align: center;
+    text-decoration: double;
+    text-decoration-color: rgb(10, 40, 56);
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.box {
+    display: flex;
+    overflow: hidden;
+    padding: 2px;
+    margin: 3px;
+    /* background-color: rgb(67, 125, 167); */
+    color: rgb(78, 43, 13);
+}
+
+.box1 {
+    margin: 0px;
+    width: 269px;
+    height: 450px;
+    border: 5px solid black;
+    background-image: image-set("https://www.indiaart.com/Paintings/20327/large/28149.jpg.ashx?height=350");
+}
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 344px;
+    height: 254px;
+    border: 5px solid rgb(29, 73, 114);
+    overflow: scroll;
+    justify-items: center;
+    align-items: center;
+    padding: 100px;
+    margin: 0px;
+    background-image: image-set("https://images-ng.pixai.art/images/thumb/1739d3f1-0883-4fe4-8a06-2821132d1c6e");
+}
+
+
+.box2 img {
+    width: 120%;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+
+}
+
+.box2 p {
+    width: 30%;
+    /* Adjusted width */
+    margin: 10px;
+    /* Adjusted margin */
+}
+
+
+
+.box3 {
+    border: 4px solid rgb(67, 55, 21);
+    width: 835px;
+    padding-top: 0%;
+    padding-bottom: 10%;
+    margin-bottom: 0px;
+    color: rgb(226, 220, 207);
+    /* background-color: var(--defbackground); */
+    background-image: image-set("https://images.freeimages.com/images/large-previews/f21/vintage-letter-paper-texture-0410-5699329.jpg?fmt=webp&w=500");
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+footer{
+    margin: 10px;
+    background-color: rgb(155, 168, 180);
+    text-align: center;
+}
+
+a:visited {
+    color: rgb(102, 95, 187);
+}
+
+a:link {
+    color: rgb(23, 46, 77);
+}
+
+a:active {
+    background-color: rgb(23, 35, 51);
+}
